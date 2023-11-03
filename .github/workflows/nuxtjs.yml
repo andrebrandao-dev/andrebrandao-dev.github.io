@@ -26,8 +26,8 @@ jobs:
 
       - name: Checkout production
         run: |
-          git config user.email "igortrindademe@gmail.com"
-          git config user.name "Igor Trindade"
+          git config user.email "andrebf4@@gmail.com"
+          git config user.name "andrebrandao-dev"
           git checkout production
           git pull
           git merge main
