@@ -12,6 +12,8 @@
   </main>
 </template>
 <script setup lang="ts">
+import '@/styles/main.scss'
+
 useHead({
   title: 'André Brandão - FullStack Developer',
 })
