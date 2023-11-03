@@ -3,7 +3,7 @@ name: Deploy production
 on:
   push:
     branches:
-      - none
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
