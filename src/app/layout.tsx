@@ -27,9 +27,12 @@ export default function RootLayout({
             <Logo />
           </header>
           
-          <main className="overflow-auto p-4">
+          <main className="overflow-auto p-4 flex flex-col gap-8">
             <Navigation />
-            {children}
+
+            <div className="flex flex-col gap-4 w-full max-w-4xl mx-auto">
+              {children}
+            </div>
           </main>
     
           <footer className="text-center p-4 border-t border-white/10">
