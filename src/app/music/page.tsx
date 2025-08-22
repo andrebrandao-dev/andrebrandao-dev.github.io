@@ -1,7 +1,5 @@
 export default function Music() {
   return (
-    <div>
-      Music content here
-    </div>
+    <p className="text-center">Em breve!</p>
   )
 }
