@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${quickSand.className} antialiased`}>
         <div className="grid grid-rows-[auto_1fr_auto] min-h-dvh">
-          <header className="p-4 border-b border-white/10">
+          <header className="sticky top-0 p-4 border-b border-white/10 bg-[var(--background)]">
             <Logo />
           </header>
           
