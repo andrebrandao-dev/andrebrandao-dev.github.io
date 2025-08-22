@@ -19,7 +19,7 @@ export default function Jobs() {
             {job.location}
           </p>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             {job.skills?.map(skill => (
               <Pill key={skill}>{skill}</Pill>
             ))}

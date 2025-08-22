@@ -47,7 +47,7 @@ const jobs = [
     description: 'Desenvolvimento de aulas para ensino infantil baseado em aulas modelo dos professores atendidos.',
     startDate: 'Setembro 2014',
     endDate: 'Maio 2016',
-    skills: ['Photoshop', 'javascript', 'html', 'css']
+    skills: ['Photoshop', 'Javascript', 'HTML', 'CSS']
   }
 ]
 
